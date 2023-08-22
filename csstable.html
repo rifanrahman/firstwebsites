@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    css tables
+
+  </title>
+</head>
+
+<style>
+  body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5t1FMRfXTdWLxHpy1JiNjbG8c_oi1noUrVRb7Cm0&s");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 500px;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid;
+  }
+
+  ul.a {
+    list-style-position: outside;
+  }
+
+  ul.b {
+    list-style-position: inside;
+  }
+
+  a:link,
+  a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover,
+  a:active {
+    background-color: red;
+  }
+
+
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+  }
+
+  p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+  }
+
+  h4 {
+    text-decoration: overline;
+  }
+
+  h2 {
+    text-decoration: line-through;
+  }
+
+  h3 {
+    text-decoration: underline;
+  }
+
+  p.ex {
+    text-decoration: overline underline;
+  }
+
+  h1 {
+    text-shadow: 2px 2px 5px red;
+  }
+
+  div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+</style>
+
+<body>
+  <h2>Demonstrating the Box Model</h2>
+  <div>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim
+    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+  <h4>Overline text decoration</h1>
+    <h2>Line-through text decoration</h2>
+    <h3>Underline text decoration</h3>
+    <p class="ex">Overline and underline text decoration.</p>
+
+
+    <p>A link styled as a button:</p>
+    <a href="atribute.html" target="_blank">This is a link</a>
+
+
+
+    <h1>Hello World!</h1>
+    <p>Here, the background image is only shown once. In addition it is positioned away from the text.</p>
+    <p>In this example we have also added a margin on the right side, so that the background image will not disturb the
+      text.</p>
+
+    <h1 style="background-color:Tomato;">Tomato</h1>
+    <h1 style="background-color:Orange;">Orange</h1>
+    <h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+    <h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+    <h1 style="background-color:Gray;">Gray</h1>
+    <h1 style="background-color:SlateBlue;">SlateBlue</h1>
+    <h1 style="background-color:Violet;">Violet</h1>
+    <h1 style="background-color:LightGray;">LightGray</h1>
+
+
+    <h1 style="background-color:DodgerBlue;">Hello World</h1>
+
+    <p style="background-color:Tomato;">
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+      dolore magna aliquam erat volutpat.
+      Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+      commodo consequat.
+    </p>
+
+
+
+    <h3 style="color:Tomato;">Hello World</h3>
+
+    <p style="color:DodgerBlue;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+      tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+    <p style="color:MediumSeaGreen;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+      lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+    <div>
+      <h2>Add a border to a table:</h2>
+
+      <table>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+        </tr>
+        <tr>
+          <td>Peter</td>
+          <td>Griffin</td>
+        </tr>
+        <tr>
+          <td>Lois</td>
+          <td>Griffin</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+
+      <h1>The list-style-position Property</h1>
+
+      <h2>list-style-position: outside (default):</h2>
+      <ul class="a">
+        <li>Coffee - A brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea
+          plant</li>
+        <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the
+          Camellia sinensis, an evergreen shrub (bush) native to Asia</li>
+        <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The drink's name refers to two of its
+          original ingredients, which were kola nuts (a source of caffeine) and coca leaves</li>
+      </ul>
+
+      <h2>list-style-position: inside:</h2>
+      <ul class="b">
+        <li>Coffee - A brewed drink prepared from roasted coffee beans, which are the seeds of berries from the Coffea
+          plant</li>
+        <li>Tea - An aromatic beverage commonly prepared by pouring hot or boiling water over cured leaves of the
+          Camellia sinensis, an evergreen shrub (bush) native to Asia</li>
+        <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The drink's name refers to two of its
+          original ingredients, which were kola nuts (a source of caffeine) and coca leaves</li>
+      </ul>
+    </div>
+    <div>
+      <h1>text formatting</h1>
+      <p>This text is styled with some of the text formatting properties. The heading uses the text-align,
+        text-transform, and color properties.
+        The paragraph is indented, aligned, and the space between characters is specified.
+    </div>
+</body>
+
+</html>

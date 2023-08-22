@@ -1,0 +1,180 @@
+  #rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+  
+  #rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+  .rcorners3 {
+    border-radius: 15px 50px 30px 5px;
+    border: 2px solid #73AD21;
+    background: #596548;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+  .rcorners4 {
+    border-radius: 15px 50px 30px; 
+    border: 2px solid #73AD21;
+    background: #596548;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+
+  p {
+    color: #040404;
+}
+  h1 {
+    text-shadow: 2px 2px 5px red;
+  }
+  h4 {
+    color: white;
+    text-shadow: 2px 2px 4px #060606;
+  }
+  h2 {
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  #chapter1 {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 20px 20px;
+  }
+  #p1 {background-color:rgba(255,0,0,0.3);}
+  #p2 {background-color:rgba(0,255,0,0.3);}
+  #p3 {background-color:rgba(0,0,255,0.3);}
+  #p4 {background-color:rgba(192,192,192,0.3);}
+  #p5 {background-color:rgba(255,255,0,0.3);}
+  #p6 {background-color:rgba(255,0,255,0.3);}
+  #p7 {background-color:hsl(120,100%,50%);}
+#p8 {background-color:hsl(120,100%,75%);}
+#p9 {background-color:hsl(120,100%,25%);}
+#p10 {background-color:hsl(120,60%,70%);}
+#p11 {background-color:hsl(290,100%,50%);}
+#p12 {background-color:hsl(290,60%,70%);}
+#p13 {background-color:rgb(255,0,0);opacity:0.6;}
+#p14 {background-color:rgb(0,255,0);opacity:0.6;}
+#p15 {background-color:rgb(0,0,255);opacity:0.6;}
+#p16 {background-color:rgb(192,192,192);opacity:0.6;}
+#p17 {background-color:rgb(255,255,0);opacity:0.6;}
+#p18 {background-color:rgb(255,0,255);opacity:0.6;}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+#borderimg { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+}
+.borderimg1 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(paris.png) 30 round;
+}
+.borderimg2 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(paris.png) 20% round;
+}
+#example1 {
+  background-image: url(paris.png), url(border.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
+.example2 {
+  border: 1px solid black;
+  background: url(paris.png);
+  background-size: 100px 80px;
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+div.ex1 { 
+  background-color: lightgreen;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+div.ex2 { 
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 15px;
+}
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow);
+}
+#grad2 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red , yellow);
+}
+#grad3 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+}
+#grad5 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: repeating-linear-gradient(45deg, red 0px, red 10px, red 10px, yellow 10px, yellow 20px);
+}
+#grad6 {
+  height: 150px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: radial-gradient(red, yellow, green);
+}
+#grad7 {
+  height: 150px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+}
+#grad8 {
+  height: 200px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: conic-gradient(red, yellow, green, blue, black);
+  border-radius: 50%;
+}
+#grad9 {
+  height: 200px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: repeating-conic-gradient(red 10%, yellow 20%);
+  border-radius: 50%;
+}
+p.test1 {
+  white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+p.test2 {
+  white-space: nowrap; 
+  width: 200px; 
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

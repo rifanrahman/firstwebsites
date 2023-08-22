@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="CORNER.CSS">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            advanced css website
+        </title>
+    </head>
+    <style>
+        * {box-sizing: border-box}
+        body {font-family: "Lato", sans-serif;}
+        
+        /* Style the tab */
+        .tab {
+          float: left;
+          background-color: #121212;
+          width: 20%;
+          height: auto;
+        }
+        
+        /* Style the buttons inside the tab */
+        .tab button {
+          display: block;
+          background-color: inherit;
+          color: rgb(252, 250, 250);
+          padding: 22px 16px;
+          width: 100%;
+          text-align: left;
+          cursor: pointer;
+          transition: 0.3s;
+          font-size: 15px;
+        }
+        
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+          background-color: #333333;
+        }
+        
+        /* Create an active/current "tab button" class */
+        .tab button.active {
+          background-color: #b5adad;
+        }
+        
+        /* Style the tab content */
+        .tabcontent {
+          float: left;
+          padding: 0px 12px;
+         
+          width: 70%;
+          border-left: none;
+          height: auto;
+        }
+      </style>
+        <body style="background-color: #fbffff;">
+            <div class="sticky">CSS Adavanced </div>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'css roundcorners')" id="defaultOpen">CSS ROUNDCORNERS</button>
+  <button class="tablinks" onclick="openCity(event, 'css borderimages')">CSS BORDERIMAGES</button>
+  <button class="tablinks" onclick="openCity(event, 'css backgrounds')">CSS BACKGROUNDS</button>
+  <button class="tablinks" onclick="openCity(event, 'css colors')">CSS COLORS</button>
+  <button class="tablinks" onclick="openCity(event, 'css colorkeywords')">CSS COLORKEYWORDS</button>
+  <button class="tablinks" onclick="openCity(event, 'css gradients')">CSS GRADIENTS</button>
+  <button class="tablinks" onclick="openCity(event, 'css shadows')">CSS SHADOWS</button>
+  <button class="tablinks" onclick="openCity(event, 'css texteffect')">CSS TEXTEFFECT</button>
+  <button class="tablinks" onclick="openCity(event, 'web font')">CSS WEBFONT</button>
+</div>
+
+<div id="css roundcorners" class="tabcontent">   
+  <p>The border-radius Property</p>
+  <p>Rounded corners for an element with a specified background color:</p>
+  <p id="rcorners1">Rounded corners!</p>
+  <p>Rounded corners for an element with a border:</p>
+  <p id="rcorners2">Rounded corners!</p><br>
+  <p class="rcorners3">Rounded corners!</p><br>
+  <p class="rcorners4"></p>
+</div>
+
+<div id="css borderimages" class="tabcontent">
+  <p>Here is the original image:</p><img src="border.png">
+  <p>paris</p><img src="paris.png" width="100px" height="100px">
+  <p class="borderimg2">border-image: url(border.png) 20% round;</p>
+</div>
+
+<div id="css backgrounds" class="tabcontent">
+  <div id="example1">
+    <p style="color: aliceblue; font-size: 50px;">Lorem Ipsum Dolor</h1>
+    <p style="color: aliceblue;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    <p style="color: aliceblue;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+  </div><br>
+  <div class="example2">
+    <h2>Lorem Ipsum Dolor</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+  </div>
+</div>
+
+  <div id="css colors" class="tabcontent">
+    <h1>Define Colors With RGBA Values</h1>
+    <p id="p1">Red</p>
+    <p id="p2">Green</p>
+    <p id="p3">Blue</p>
+    <p id="p4">Grey</p>
+    <p id="p5">Yellow</p>
+    <p id="p6">Cerise</p><br>
+    <h1>Define Colors With HSL Values</h1>
+    <p id="p7">Green</p>
+    <p id="p8">Light green</p>
+    <p id="p9">Dark green</p>
+    <p id="p10">Pastel green</p>
+    <p id="p11">Violet</p>
+    <p id="p12">Pastel violet</p><br>
+    <h1>Define Colors With Opacity</h1>
+    <p id="p13">Red</p>
+    <p id="p14">Green</p>
+    <p id="p15">Blue</p>
+    <p id="p16">Grey</p>
+    <p id="p17">Yellow</p>
+    <p id="p18">Cerise</p>
+
+  </div>
+
+  <div id="css colorkeywords" class="tabcontent">
+    <div class="ex1">This div has a light green background.</div>
+    <br>
+    <div class="ex2">This div has a transparent background.</div><br>
+    <div class="ex3">This div element has a blue text color and a blue border.</div><br>
+  </div>
+
+  <div id="css gradients" class="tabcontent">
+    <h1>Linear Gradient - Top to Bottom</h1>
+    <div id="grad1"></div><br>
+    <h1>Linear Gradient - Top to Bottom</h1>
+    <div id="grad2"></div><br>
+    <h1>7 Color Stops (evenly spaced):</h1>
+    <div id="grad3"></div><br>
+    <h1>A repeating linear gradient with solid stripes:</h1>
+    <div id="grad5"></div><br>
+    <h1>Radial Gradient - Evenly Spaced Color Stops</h1>
+    <div id="grad6"></div><br>
+    <h1>Radial Gradient - Differently Spaced Color Stops</h1>
+    <div id="grad7"></div><br>
+    <h1>Conic Gradient - Pie Chart</h1>
+    <div id="grad8"></div><br>
+    <h1>Repeating a Conic Gradient</h1>
+    <div id="grad9"></div>
+  </div>
+  
+  <div id="css shadows" class="tabcontent">
+    <h1>Text-shadow effect!</h1> <br>
+    <h4>Text-shadow effect!</h4><br>
+    <h2>Text shadow effect</h2><br>
+    <div id="chapter1">
+      <h1>The box-shadow Property</h1>
+    </div>
+  </div>
+
+  <div id="css texteffect" class="tabcontent">
+    <h1>rifan rahman rafa</h1>
+  </div>
+
+  <div id="web font" class="tabcontent">
+    <P>TRFGDGGDDGDD</P>
+  </div>
+  <!-- <div id="css texteffect" class="tabcontent">
+        <h1>rifan rahman rafa</h1>
+  </div>
+
+  <div id="web font" class="tabcontent">
+    <P>TRFGDGGDDGDD</P>
+  </div> -->
+
+
+        </body>
+        <script>
+            function openCity(evt, cityName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+              document.getElementById(cityName).style.display = "block";
+              evt.currentTarget.className += " active";
+            }
+            
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+            </script>
+
+</html>
